@@ -1,0 +1,129 @@
+body, html {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  height: 5000px;
+  width: 100vw;
+  background-color: beige;
+}
+.story {
+  height: 200px;
+  position: fixed;
+  width:100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+
+
+.story1 {
+  background-color: gray;
+}
+
+
+.police, .fire, .ambulance {
+  position: absolute;
+}
+
+.police, .fire {
+  top: 130px;
+  width: 60px;
+  height: 60px;
+}
+
+.police {
+  right: -80px;
+}
+
+.police {
+  background-color: blue;
+}
+
+.fire {
+  left: -80px;
+}
+
+.fire {
+  background-color: red;
+}
+
+.ambulance {
+  top: 40px;
+  margin: 0 auto;
+  position: relative;
+  width: 15px;
+  height: 15px;
+}
+
+.ambulance  {
+  background-color: white;
+}
+
+.policeman, .fireman, .ambulanceman {
+  display: inline-block;
+  position: relative;
+
+  height: 180px;
+  width: 90px;
+  margin: 0 10px;
+}
+.ambulanceman {
+  width: 120px;
+}
+.fireman {
+  width: 75px;
+}
+
+.scroll-down {
+  position: fixed;
+  display: block;
+  width: 100vw;
+  text-align: center;
+  bottom: 20px;
+  margin: 0 auto;
+  color: black;
+}
+
+@media 
+(-webkit-min-device-pixel-ratio: 2), 
+(min-resolution: 192dpi) { 
+.story {
+  height: 400px;
+ 
+}
+.police, .fire {
+  top: 260px;
+  width: 120px;
+  height: 120px;
+}
+.fire {
+  left: -160px;
+}
+.police {
+  right: -160px;
+}
+
+.ambulance {
+  top: 80px;
+  margin: 0 auto;
+  position: relative;
+  width: 30px;
+  height: 30px;
+}
+
+  .policeman, .fireman, .ambulanceman {
+ 
+
+    height: 360px;
+    width: 180px;
+    margin: 0 10px;
+  }
+  .ambulanceman {
+    width: 240px;
+  }
+  .fireman {
+    width: 150px;
+  }
+}
